@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+<title>canvas draw test</title>
+
+<style type="text/css"> @import url(oekaki.css); </style>
+
+<script type="text/javascript" src="base64.js"></script>
+<script type="text/javascript" src="canvas2image.js"></script>
+<script type="text/javascript" src="editor.js"></script>
+<script type="text/javascript" src="example-init.js"></script>
+
+</head>
+
+<body>
+
+<div class="oekaki-widget" id="oekaki-element-testelem">
+
+<ul class="oekaki-widget-tools">
+<li><input type="color" class="color" value="000000" /></li>
+<li><input type="button" class="oekaki-widget-tool-button oekaki-tool-brush" value="Brush" /></li>
+<li><input type="button" class="oekaki-widget-tool-button oekaki-tool-eraser" value="Eraser" /></li>
+<li><input type="button" class="oekaki-widget-size-button oekaki-size-1" value="1" /></li>
+<li><input type="button" class="oekaki-widget-size-button oekaki-size-2" value="2" /></li>
+<li><input type="button" class="oekaki-widget-size-button oekaki-size-4" value="4" /></li>
+<li><input type="button" class="oekaki-widget-size-button oekaki-size-8" value="8" /></li>
+<li><input type="button" class="oekaki-widget-size-button oekaki-size-12" value="12" /></li>
+<li><input type="button" class="oekaki-widget-download-button" value="Download" /></li>
+</ul>
+
+<canvas id="testelem-canvas" width="600" height="400">
+<p>If you can see this you can't use the canvas.  Sorry :(</p>
+</canvas>
+<input type="hidden" name="testelem" value="" class="oekaki-image-datafield" />
+
+</div>
+
+</body>
+</html>

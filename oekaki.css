@@ -1,0 +1,88 @@
+body, div, canvas {
+	margin: 0;
+	padding: 0;
+	border: 0px none;
+}
+
+canvas {
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.oekaki-widget-tools {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.oekaki-widget-tools.active {
+	display: block;
+}
+
+.oekaki-widget-tools li, 
+.oekaki-widget-tools li input {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+.oekaki-widget-tools input {
+	width: 20px;
+	height: 20px;
+	padding: 0px;
+	margin: 0 1px 0 0;
+	border: 1px solid #ccc;
+}
+
+.oekaki-widget-tools input {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRFAAAA////pdmf3QAAAQJJREFUeNrs2cEShSAIBdDL///0m2nyqZCliLq5LnPiGCotgGwY6HgSj+BFQR5TCPSzMiTSPMa+F3egpnFNW2RIQYchChEf0mdcsdOWYDxdXUY1OYzcCj6MCASCh3NVB85H2JUu+161XeoOeZA+Yw5JjLRuYQACs+f/8HUZAXyFJV9GvelV2PkCaU+LXbyqkY4q/JB9lbDXrXL8T1RkE9SRPLz8OqTxlRKFLP79EiFChAgRIkSIECFChAgRIkSIECFChAgRIkSIEFkTuOy2rSOK5lv0qiuj6MHHLDsUMR1A21XV3VuMBWw1PnsR7ECOpevYxh86wnsu46GywlI/MX4CDACL4yVguy5PqwAAAABJRU5ErkJggg==);
+	background-repeat: no-repeat;
+	
+	overflow: hidden;
+	text-indent: -1000px;
+}
+
+.oekaki-widget-tools input[type="color"] {
+	width: 20px;
+	height: 20px;
+	background-image: none;
+}
+
+.oekaki-tool-brush {
+	background-position: 0px 0px;
+}
+
+.oekaki-tool-eraser {
+	background-position: -20px 0px;
+}
+
+.oekaki-widget-download-button {
+	background-position: -40px 0px;
+}
+
+.oekaki-size-1 {
+	background-position: 0px -80px;
+}
+
+.oekaki-size-2 {
+	background-position: -20px -80px;
+}
+
+.oekaki-size-4 {
+	background-position: -40px -80px;
+}
+
+.oekaki-size-8 {
+	background-position: -60px -80px;
+}
+
+.oekaki-size-12 {
+	background-position: -80px -80px;
+}
+
+.oekaki-widget-tools li input:active, 
+.oekaki-widget-tools li input.selected {
+	border: 1px solid #f00;
+}

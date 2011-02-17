@@ -1,0 +1,28 @@
+Oekaki Editor
+
+A web-based sketchpad library written in JavaScript
+This library uses the HTML Canvas 2D Context.
+http://dev.w3.org/html5/2dcontext/
+
+
+
+Copyright © 2011 Geoffrey Roberts, g.roberts@blackicemedia.com
+This software is licensed under the MIT License
+http://www.opensource.org/licenses/mit-license.php
+
+
+
+This software uses the following libraries:
+
+* Canvas2Image
+  Jacob Seidelin, cupboy@gmail.com
+  MIT License
+
+* Base64
+  Masanao Izumo, iz@onicos.co.jp
+  Public Domain(?)
+
+
+
+お絵描き
+Oekaki: it's Japanese for drawing.
